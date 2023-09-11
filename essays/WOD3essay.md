@@ -8,44 +8,54 @@ published: true
 labels:
   - Management Information Systems
 ---
+## Introduction:
 
+In my journey through the BrowserHistory Web Development Workouts (WODs), I have gained valuable insights into the world of web development, honed my skills in HTML and CSS, and developed a deeper understanding of web development tools like VS Code, LiveReload, and Chrome Developer Tools. These WODs challenged me to approach web development with an "Athletic Approach," emphasizing practice and continuous improvement. In this essay, I will summarize my experiences with each of the three WODs, highlighting what I learned, how long it took to complete each one, and any setbacks I encountered.
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+## WOD 1: Creating a Static Web Page
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+For my first WOD, I was tasked with creating a simple static web page. This assignment introduced me to the fundamentals of HTML and CSS. It took me approximately five hours to complete. The key takeaways from this exercise were:
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+HTML Structure: I learned how to structure a web page using HTML tags, including headings, paragraphs, lists, and links. Properly nesting these elements was crucial for creating a well-organized page.
 
-Here's what I think: the difficult things will always be difficult.
+CSS Styling: I gained a basic understanding of CSS properties and selectors to style the webpage. This included adjusting fonts, colors, margins, and padding.
 
-## In the context of programming
+VS Code Usage: Working with VS Code, I became more proficient in code editing, file management, and the use of extensions for enhanced productivity.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+LiveReload: LiveReload proved to be a game-changer, as it allowed me to see real-time updates to my webpage as I made changes to the code, greatly improving my development workflow.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## WOD 2: Responsive Web Design
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+The second WOD challenged me to create a responsive web page that adapted to different screen sizes. This was more complex and took around eight hours to complete. Here's what I learned:
 
-## In the context of engineering
+Media Queries: I delved deeper into CSS with media queries, enabling me to make design adjustments for various screen sizes, from desktop to mobile.
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+Viewport Meta Tag: I discovered the importance of the viewport meta tag for mobile responsiveness, ensuring that the webpage displayed correctly on smaller screens.
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+Chrome Developer Tools: My understanding of Chrome Developer Tools expanded as I used it to test and debug the responsive design, checking for layout issues and adjusting CSS accordingly.
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+Persistence: This assignment taught me the value of persistence and patience when dealing with complex web layouts. It required multiple attempts to get the responsive design just right.
 
-## In the context of relationships
+## WOD 3: Interactive Web Page
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+The third WOD pushed me to create an interactive web page, involving JavaScript to add functionality. This was the most time-consuming, taking approximately 12 hours to complete. My key takeaways were:
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+JavaScript Integration: I learned how to incorporate JavaScript into my web page to create interactive elements such as buttons, forms, and event listeners.
 
-Relationships have always been difficult, and by nature will continue to be so.
+User Experience: This WOD emphasized the importance of a seamless user experience and user-friendly design. Feedback from classmates helped me refine the interface.
 
-## Okay!
+Testing and Debugging: With the increased complexity of JavaScript, I honed my skills in using Chrome Developer Tools to debug and trace issues in the code.
 
-So back to the original premise; why is being one of the club officers so difficult?
+Refactoring: Multiple iterations were necessary to improve the code's efficiency and readability. Refactoring became a crucial step in achieving a polished final product.
 
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
+## Setbacks and Improvements:
 
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+During this journey, I encountered several setbacks, including debugging challenges. These experiences taught me to:
+
+Manage Time: Setting clear goals and time limits for each task was crucial. I learned to break down assignments into manageable chunks and allocate sufficient time for testing and debugging.
+
+Seek Help: Don't hesitate to seek assistance from peers or online resources when facing roadblocks. Collaboration and learning from others' experiences were invaluable.
+
+Embrace Mistakes: Mistakes and failures are part of the learning process. Instead of becoming frustrated, I learned to view them as opportunities for growth and improvement.
+
+In conclusion, my BrowserHistory WOD journey was a rewarding experience that allowed me to develop practical skills in web development. It emphasized the importance of continuously practicing and improving. Through these exercises, I gained a solid foundation in HTML and CSS, as well as a deeper appreciation for the tools and techniques that streamline web development. I encourage my classmates to approach web development with dedication, patience, and a commitment to learning from every challenge they encounter.
