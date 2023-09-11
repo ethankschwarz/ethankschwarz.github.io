@@ -7,9 +7,7 @@ date: 2023-08-28
 published: true
 labels:
   - Information Technology
----
-
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+--
 
 The convergence of business and technology has brought about a transformative shift in the modern world. As the digital landscape continues to evolve, organizations are increasingly reliant on effective information management systems to streamline operations, make informed decisions, and gain a competitive edge. In light of this dynamic environment, my decision to major in Management Information Systems (MIS) was driven by a combination of personal interests, career prospects, and the recognition of the critical role that technology plays in shaping today's business landscape.
 
