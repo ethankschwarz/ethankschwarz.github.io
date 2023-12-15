@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="E6: Evaluation Guidelines and Class Retrospective Blog | Ethan Schwarz | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/ethankschwarz.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ethan Schwarz | Professional Portfolio">
+    <meta property="og:url" content="https://ethankschwarz.github.io/essays/e6.html">
+    <meta property="og:title" content="E6: Evaluation Guidelines and Class Retrospective Blog | Ethan Schwarz | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/ethankschwarz.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>E6: Evaluation Guidelines and Class Retrospective Blog | Ethan Schwarz | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Ethan Schwarz</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">E6: Evaluation Guidelines and Class Retrospective Blog</h1>
+  <span class="date">14 Dec 2023</span>
+  <hr>
+  <h2 id="assignment-3">Assignment 3:</h2>
+
+<h2 id="brief-description-of-the-system">Brief Description of the System:</h2>
+<p>The system is a server-side implementation for an online store selling various towels, bags, and poncho products. The system includes user authentication, session management, email notifications, and functionality to handle user registration, login, and product purchases.</p>
+
+<h2 id="notable-shortcomings-bugs-problems-or-additional-features-not-implemented">Notable Shortcomings, Bugs, Problems, or Additional Features Not Implemented:</h2>
+<p>Security Concerns: Storing passwords as plain text in user_data.json is a significant security concern. Next time I would store hashed and salted passwords for enhanced security.</p>
+
+<p>Incomplete Session Handling: The code manages sessions but doesn’t appear to handle session expiration or logout effectively. There’s a need for a robust session management strategy.</p>
+
+<p>Email Configuration: The email configuration relies on a hardcoded host (mail.hawaii.edu). It might be better to make this configurable and not reject unauthorized certificates.</p>
+
+<p>Error Handling: While errors are identified, there isn’t a consistent and comprehensive error-handling mechanism throughout the code.</p>
+
+<h2 id="what-im-most-proud-of-about-my-system">What I’m Most Proud of About My System:</h2>
+<p>User Authentication: The system successfully authenticates users, stores user-related information in cookies, and maintains login status.</p>
+
+<p>Product Handling: The code manages product quantities, updates the total sold, and maintains a structured product array.</p>
+
+<p>Email Integration: The integration of Nodemailer for sending order confirmation emails is a positive aspect of the system.</p>
+
+<h2 id="what-im-least-happy-with-my-system">What I’m Least Happy With My System:</h2>
+<p>Password Handling: Storing passwords as plain text is a security vulnerability. Implementing a more secure password storage mechanism is essential.</p>
+
+<p>Session Handling: The session handling and logout functionality could be improved for better security and user experience.</p>
+
+<p>Error Messaging: While errors are identified, more detailed and user-friendly error messages could enhance the user experience.</p>
+
+<h2 id="how-developing-this-assignment-was-different-than-assignment-2">How Developing This Assignment Was Different Than Assignment #2:</h2>
+<p>Server-Side Emphasis: Assignment #3 focuses more on server-side processes, including user authentication, product handling, and email communication, as compared to Assignment #2, which emphasizes client-side validation and webpage aesthetics.</p>
+
+<h2 id="how-you-addressed-problems">How You Addressed Problems:</h2>
+<p>Collaboration: The code includes comments mentioning assistance from individuals (Ethan Schwarz, Anthony Lee, Reyn, and Marina Cleavenger).</p>
+
+<p>Research: External research, consulting with peers, and utilizing external sources for understanding concepts like password hashing and session handling.</p>
+
+<h2 id="what-worked-well">What Worked Well:</h2>
+<p>Code Familiarity: The developer’s familiarity with the code from Assignment #1 facilitated variable declaration and additions.</p>
+
+<p>Product Sorting: Products are effectively sorted by type, enhancing the user experience in navigating the store.</p>
+
+<h2 id="what-did-not-work-well">What Did Not Work Well:</h2>
+<p>Lack of Documentation: Some sections lack sufficient comments or documentation, making it challenging to understand the purpose and functionality of certain code segments.</p>
+
+<p>Limited Session Handling: The code lacks a comprehensive session handling mechanism, and there are areas where session-related tasks could be better structured.</p>
+
+<h2 id="what-i-learned">What I Learned:</h2>
+<p>Server-Side Processes: Assignment #3 provided a deeper understanding of server-side processes, emphasizing tasks such as updating JSON files and making them interact.</p>
+
+<p>Password Encryption: Learned about password encryption techniques, such as SHA-256 hashing, for improved security.</p>
+
+<h2 id="if-i-could-go-back-in-time-and-do-things-differently">If I Could Go Back in Time and Do Things Differently:</h2>
+<p>Research: The developer would allocate more time to research server-side processes beyond the assigned readings and modules.</p>
+
+<p>Security Implementation: Implement a more secure password storage mechanism from the beginning.</p>
+
+<h2 id="estimated-time-breakdown">Estimated Time Breakdown:</h2>
+<p>Thinking about How to Do Something: 20%
+Writing Code (excluding testing): 30%
+Testing and Debugging: 50%</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
